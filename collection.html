@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Google Style sheet for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Aweson  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Ad link -->
+    <div class="ad">
+      <div class="ad__s1">
+        <p>Sign Up and</p>
+        <p class="ad__s1__off">Get 20% OFF</p>
+        <p>for your first Order</p>
+      </div>
+      <div class="ad__s2">
+        <p id="close btn">X</p>
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="navbar__s1">
+        <h1>Nostra</h1>
+      </div>
+      <div class="navbar__s2">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html#arr">New Arrival</a>
+          </li>
+          <li>
+            <a href="./index.html#mw">Most Wanted</a>
+          </li>
+          <li>
+            <a href="./collection.html">Collection</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar__s3" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <!-- Slide Navbar -->
+    <div class="slide-navbar">
+      <p style="text-align: right" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <div class="slide-navbar-link">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html#arr">New Arrival</a>
+          </li>
+          <li>
+            <a href="./index.html#mw">Most Wanted</a>
+          </li>
+          <li>
+            <a href="./collection.html">Collection</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- collection -->
+    <div class="collection">
+      <div class="collection__s1">
+        <div>
+          <div class="collection__s1__c1">
+            <h1>Occasion</h1>
+            <label>
+              <input type="checkbox" name="check" value="summer" /> Summer
+            </label>
+            <label>
+              <input type="checkbox" name="check" value="party" /> Party
+            </label>
+            <label>
+              <input type="checkbox" name="check" value="beach" /> Beach
+            </label>
+          </div>
+          <div class="collection__s1__c1">
+            <h1>Colors</h1>
+            <label>
+              <input type="checkbox" name="check" value="red" /> Red
+            </label>
+            <label>
+              <input type="checkbox" name="check" value="blue" /> Blue
+            </label>
+            <label>
+              <input type="checkbox" name="check" value="white" /> White
+            </label>
+            <label>
+              <input type="checkbox" name="check" value="green" /> Green
+            </label>
+          </div>
+
+          <div class="collection__s1__c1">
+            <h1>Arrivals</h1>
+            <label>
+              <input type="checkbox" name="check" value="new" /> New
+            </label>
+            <label>
+              <input type="checkbox" name="check" value="old" /> Old
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="collection__s2">
+        <div class="collection-search">
+          <input type="text" id="search" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="collection-dress" id="collection-dress">
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/85ec739e-d0e2-4f0a-a9c6-4531c982325f.fe40163b134a50b7bd8119369b736750.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+              alt="new1"
+            />
+
+            <h2>Floral Summer Shirt</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/44c691b1-37b4-4812-93df-3116ba3024f4.ef60575315b18591c597e8cd4754a6a4.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Summer Green</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/seo/PEASKJP-Men-s-Striped-Shirt-Short-Sleeve-Stylish-Floral-Lapel-Neck-Loose-Fit-Casual-Beach-Tops-Grey-M_be74d6a9-d2b8-4091-acf6-bd1c283f7a26.f66d175e8ab5764611374f76df7005cb.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2 id="name1">Party Floral Shirt</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/seo/PEASKJP-Men-s-Short-Sleeve-Shirts-Short-Sleeve-Striped-Shirt-Floral-Printed-Relaxed-Fit-Casual-Beach-Tops-Purple-L_fe2abdfb-68a6-4906-8c41-a63ff11121fc.35bbb344f75f64642ddc75addce9a3c7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Floral Summer Shirt</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/8c0b5d19-1586-4388-8e5a-dcd9d9088244.7319c4cc5e7022e3edd42679b03155e8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Beach Shirt</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/6a1864d3-4cb8-495f-ade0-eb5e772b9adb.923989ecd14a2b8481f00765ef2a025f.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Shirt Party Yellow</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/855705ee-a421-47c2-8b84-63043bd2f786.5b5a0439ac2cfdc1e1fc754e463c50b0.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Shirt Party Yellow</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/02c9bf96-e4b9-4f3f-bbc8-943432515210.4edf665b19816b5d508463142849a7df.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Shirt Party Yellow</h2>
+            <p>$12.74</p>
+          </div>
+          <div class="collection-box">
+            <img
+              src="https://i5.walmartimages.com/asr/9f73f41b-3525-4ff4-a959-df45875320bb.9cf1e6af81fe9cd9f9e913b6f9c44239.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+              alt="new1"
+            />
+            <h2>Shirt Party Yellow</h2>
+            <p>$12.74</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- News -->
+    <div class="news">
+      <h1>Join our News Letter</h1>
+      <p>
+        Signup for our email newspaper to get exclusive discounts, updates, and
+        more
+      </p>
+      <input type="text" />
+      <div>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-container__s1">
+          <h1>Nostra</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            tempore modi reiciendis velit tempora, temporibus, odio ratione
+            nobis molestiae sit blanditiis recusandae dolor molestias quam
+            ducimus repellendus soluta enim accusamus.
+          </p>
+        </div>
+        <div class="footer-container__s2">
+          <i class="fa-brands fa-instagram" style="color: white"></i>
+          <i class="fa-brands fa-twitter" style="color: white"></i>
+          <i class="fa-brands fa-facebook" style="color: white"></i>
+        </div>
+      </div>
+      <p>@ 2023 Nostra.com</p>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
